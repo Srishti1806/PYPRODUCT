@@ -1,5 +1,4 @@
 from product import product_details
-
 def test_product_details_output():
     result = product_details("P101", "Laptop", 5, 55000)
     expected = (
