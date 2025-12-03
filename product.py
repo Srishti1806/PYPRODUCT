@@ -5,7 +5,7 @@ def product_details(product_id, name, quantity, price):
         f"Quantity     : {quantity}\n"
         f"Price        : {price}"
     )
-    if _name_ == "_main_":
+    if __name__ == "__main__":
     pid = "P101"
     pname = "Laptop"
     qty = 5
